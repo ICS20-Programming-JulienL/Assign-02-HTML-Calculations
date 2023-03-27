@@ -1,1 +1,60 @@
 <!DOCTYPE html>
+<!-- ICS2O-Unit1-05-HTML-MDL -->
+<html lang="en-ca">
+  <head>
+    <!--Meta Data-->
+    <meta charset="utf-8">
+    <meta name="description" content="Volume and Surface Area of a Rectangular Prism<">
+    <meta name="keywords" content="Immaculata, ics2o">
+    <meta name="author" content="Julien L.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- For the favicon on this page -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Google's MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-deep_purple.min.css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <title>Volume and Surface Area of a Rectangular Prism<</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <!-- Google's MDL -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    
+    <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <!-- Web page header -->
+      <header class = "mdl-layout__header">
+        <div class = "mdl-layout__header-row">      
+          <span class = "mdl-layout-title">Volume and Surface Area of a Rectangular Prism</span>         
+        </div>       
+      </header>
+      <!--Input and Textfield code-->
+      <p>
+      <center>
+      <h3>Please enter the following:</h3>
+      <form action="javascript:enterClicked()">
+        <label for="prism-length">Length :</label>
+        <input type="number" id="prism-length" step=".001" placeholder="Enter the length of your prism"><br><br>
+        <label for="prism-height">Height :</label>
+        <input type="number" id="prism-height" step=".001" placeholder="Enter the width of your prism"><br><br>
+        <label for="prism-width">Width :</label>
+        <input type="number" id="prism-width" step=".001" placeholder="Enter the height of your prism"><br><br>
+        <!-- Accent-colored raised button -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+          <input type="submit" value="Pay">
+        </button>
+      </form>
+    </p>
+      <!-- Create a space where the user information will be displayed -->
+      <div id="answer1">
+      </div>
+      <div id="answer2">
+      </div>
+      <img src="./images/volumeRectangle.png" alt="Volume of a Rectangle">
+    </center>
+  </body>
+</html>
