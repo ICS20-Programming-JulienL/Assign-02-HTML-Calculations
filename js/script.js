@@ -6,7 +6,7 @@
 
 "use strict";
 
-function enterClicked() {
+function calculateVolumeSurfaceArea() {
   // get the length from user input
   let length= parseFloat(document.getElementById("prism-length").value)
 

@@ -26,7 +26,6 @@
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     
     <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    </div>
       <!-- Web page header -->
       <header class = "mdl-layout__header">
         <div class = "mdl-layout__header-row">      
@@ -36,9 +35,9 @@
       <!--Input and Textfield code-->
       <center>
         <br>
-        <p>With this calculator you will be able to solve any rectangular prism. Whether you're trying to calculate the volume of a box or that shelf that you've been meaning to install, this calculator has got you covered! </p>
+        <p>With this calculator, which was coded with Javascript, you will be able to solve any rectangular prism. Whether you're trying to calculate the volume of a box or that shelf that you've been meaning to install, this calculator has got you covered! </p>
         <h3>Please enter the following:</h3>
-        <form action="javascript:enterClicked()">
+        <form action="javascript:calculateVolumeSurfaceArea()">
         <label for="prism-length">Length :</label>
         <input type="number" id="prism-length" step=".001" placeholder="Enter the length of your prism"><br><br>
         <label for="prism-height">Height :</label>
@@ -46,7 +45,7 @@
         <label for="prism-width">Width :</label>
         <input type="number" id="prism-width" step=".001" placeholder="Enter the height of your prism"><br><br>
         <!-- Accent-colored raised button -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" onclick ="enterClicked()">
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" onclick ="calculateVolumeSurfaceArea()()">
           Calculate
         </button>
       </form>
@@ -55,7 +54,7 @@
       </div>
       <div id="answer2">
       </div>
-      <img src="./images/volumeRectangluarPrism.png" alt="Volume of a Rectangle">
+      <img src="./images/volumeRectangularPrism.png" alt="Volume of a Rectangle">
     </center>
   </body>
 </html>
