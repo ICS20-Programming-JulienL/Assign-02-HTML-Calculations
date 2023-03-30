@@ -19,7 +19,7 @@ function calculateVolumeSurfaceArea() {
 
   //calculate the volume 
   let volume = length*height*width;
-  //calculate the sirface area
+  //calculate the surface area
   let widthLength = 2*width*length;
   let heightLength = 2*height*length;
   let heightWidth = 2*height*width;
